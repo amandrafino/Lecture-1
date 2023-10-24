@@ -2,7 +2,7 @@
 
 // Function prototype declaration
 void printStateAndCapital(char state[], char capital[]);
-void enterState(char state[]);
+v;oid enterState(char state[]);
 void enterCapital(char capital[]);
 
 
