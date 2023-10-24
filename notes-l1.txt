@@ -1,0 +1,16 @@
+Components of a C program
+
+1. Preprocessor Commands: #include and #define that 
+tell the compiler to do initial setup.
+
+2. Functions: Blocks of code designed to do a particular
+task. Every program has at least one function called 
+main().
+
+3. Variables: Named memory locations to store values
+
+4. Statement & Expressions: The logic of the code.
+
+5. Comments: For code readability, ignored by the computer.
+
+
