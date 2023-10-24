@@ -1,16 +1,22 @@
 #include <stdio.h>
 
-void height_and_weight(int h, int w);
+// Function prototype declaration
+void displayHeightAndWeight(int height, int weight);
+
 
 int main(void) {
-    int h = 70;
-    int w = 210;
-    height_and_weight(h, w);
+    // Local variables in main function
+    int myHeight = 70;
+    int myWeight = 210;
+
+    // Function call
+    displayHeightAndWeight(myHeight, myWeight);
 
     return 0;
 }
 
-void height_and_weight(int h, int w) {
-    printf("My height is %d inches and my weight is %d pounds.\n", h, w);
+// Function definition
+void displayHeightAndWeight(int height, int weight) {
+    printf("My height is %d inches.\nMy weight is %d pounds.\n", height, weight);
         
 }
