@@ -16,7 +16,6 @@ int main(void) {
 
     enterCountry(country);
     enterContinent(continent);
-
     printCountryAndContinent(country, continent);
 
     return 0;
